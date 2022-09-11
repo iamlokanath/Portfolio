@@ -1,0 +1,146 @@
+     *{
+        /* background-color: rgb(20, 20, 20); */
+        margin:0;
+        padding:0;
+    } 
+        header{
+            width: 100%;
+            height: 100%;
+            background: rgb(0, 0, 0);
+        }
+        nav{
+            width: 94vw;
+            height: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            /* padding: 1.5rem 4rem 1.5rem 4rem; */
+            padding: 1%;
+            color: white;
+        }
+        .logo{
+            font-size: 29px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            font-family: Comfortaa,sans-serif;
+            margin: 4%;
+        }
+        #blue{
+            color: #74b9ff;
+        }
+
+
+        .menu a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .menu{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            font-size: 2rem;
+        }
+ 
+          .container{
+            width:100%;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: rgb(20, 20, 20);
+        }  
+        
+        
+
+        .myphoto{
+            height: 100%;
+            flex-basis: 50%;
+            text-align: center;
+            margin-top: 0%;
+            
+        }
+        .myphoto img{
+            width: 38%;
+            transition: 1s;
+            border-radius: 8%;
+
+        }
+
+
+         .name{
+           text-align: center;
+           font-size: 3rem;
+           line-height: 1;
+           font-weight: 500;
+           font-family: Montserrat,sans-serif;
+           color: aliceblue;
+           
+         }
+         /* .name p{
+            font-size:25px;
+            margin: 0px;
+           color: aliceblue;
+           
+        }  */
+
+        .web{
+            text-align: center;
+            font-size: 2rem;
+            line-height: 1;
+            /* font-weight: 500; */
+            font-family: Montserrat,sans-serif;
+            color: rgb(93, 105, 113);
+            padding: 1%;
+          }
+        .about{
+            text-align: center;
+            font-size: 1rem;
+            line-height: 1;
+            /* font-weight: 500; */
+            font-family: Montserrat,Arial, Helvetica, sans-serif;
+            color: rgb(255, 255, 255);
+            background-color: rgb(20, 20, 20);
+            padding: 2%;
+        }
+
+        
+
+          
+    #footer {
+        background: rgba(0, 0, 0, 0.163);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 8rem;
+        color: rgb(250, 250, 250);
+        background: rgb(0, 0, 0);
+    }
+    .social {
+        width: 120px;
+        font-size: 28px;
+        display: flex;
+        gap: 2rem;
+        color: antiquewhite;
+    }
+    .social a{
+        transition: .4s;
+        filter: brightness(.8);
+    }
+    .social a:hover{
+        transform: scale(1.3);
+        filter: brightness(1);
+    }
+
+    
+
+    .footerlogo{
+        font-size: 29px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-family: Comfortaa,sans-serif;
+        margin: -5%;
+    }

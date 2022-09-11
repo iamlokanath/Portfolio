@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+}
+.contact
+{
+    width: 343px;
+    box-shadow: 0 0 3px 0 rgb(0 0 0 / 30%);
+    background: #fff;
+    padding: 26px;
+    margin: 3% auto 0;
+    text-align: center;
+}
+
+
+
+.contact h1{
+    color: #1c8adb;
+    margin-bottom: 30px;
+}
+.input-box{
+    border-radius: 6px;
+    padding: 15px;
+    margin: 10px -23px;
+    width: 101%;
+    border: 1px solid rgb(153, 153, 153);
+    outline: none;
+
+    }
+button
+{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.contact-btn
+{
+    background-color: #1c8adb;
+}
+/* .twitter-btn
+{
+    background-color: #21afde;
+} */
+a
+{
+    text-decoration: 20px;
+}
+
+/* .or{
+    background-color: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+} */
+img{
+    width: 70px;
+    margin-top: -50px;
+}
+
+
+.message-box{
+    border-radius: 0px;
+    padding: 48px;
+    margin: 21px -21px;
+    width: 81%;
+    border: 1px solid rgb(153, 153, 153);
+    outline: none;
+    }
+
+    
+
+
+
+
+
+
+    header{
+        width: 100%;
+        height: 100%;
+        background: rgb(0, 0, 0);
+    }
+    nav{
+        width: 94vw;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* padding: 1.5rem 4rem 1.5rem 4rem; */
+        padding: 1%;
+        color: white;
+    }
+    .logo{
+        font-size: 29px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-family: Comfortaa,sans-serif;
+        margin: 4%;
+    }
+    #blue{
+        color: #74b9ff;
+    }
+
+
+    .menu a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        font-size: 2rem;
+    }
