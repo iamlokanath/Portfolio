@@ -3,6 +3,9 @@
         margin:0;
         padding:0;
     } 
+    body{
+        position: relative;
+    }
         header{
             width: 100%;
             height: 100%;
@@ -143,4 +146,17 @@
         letter-spacing: 3px;
         font-family: Comfortaa,sans-serif;
         margin: -5%;
+    }
+
+    .loader{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        background: #facaaa;
+    }
+    .loader img{
+        width: 20rem;
     }
